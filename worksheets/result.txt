@@ -1,0 +1,18 @@
+the string is: tsedex is awesome
+the number of vowels is: 7
+the number of constants is: 10
+the string is: are u appended?
+the number of vowels is: 6
+the number of constants is: 9
+the string is: just to make sure;)
+the number of vowels is: 6
+the number of constants is: 13
+the string is: tsedex is done
+the number of vowels is: 5
+the number of constants is: 9
+the string is: tseede figured it out
+the number of vowels is: 9
+the number of constants is: 12
+the string is: Did this work?
+the number of vowels is: 3
+the number of constants is: 11
