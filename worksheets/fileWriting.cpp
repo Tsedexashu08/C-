@@ -3,7 +3,7 @@
 #include<string.h>
 using namespace std;
 void accept(char str[],int n){
-   cout<<"enter a word or line:  ";
+   cout<<"enter a word or line(enter full to indicate you're finished):  ";
    cin.getline(str,n,'.');//accepts string till full stop is encountered.
 }//accepts string.
 void write(char str[],ofstream &out){
@@ -28,9 +28,8 @@ for(int i = 0; x[i]!='\0'; ++i)
            x[i]=='E' || x[i]=='I' || x[i]=='O' ||
            x[i]=='U'){
             ++v_count;
-           }
-       else{
-        ++c_count;
+           }else if((x[i]>='a'&& x[i]<='z') || (x[i]>='A'&& x[i]<='Z')){
+          ++c_count;
        }}}//counts the number of vowels and consonants in the file.
  void copy(int vcount,int ccount,char x[],ofstream &result){
       if(result.is_open()){
@@ -61,7 +60,7 @@ int n=100,v_count=0,c_count=0;
      ofstream result;
      result.open("result.txt",ios::out|ios::app);//writes and appends the text in file every time program is run.
      copy(v_count,c_count,x,result);
-     result.close();
+     result.close();6
      ifstream r;
      display(r);
   return 0;

@@ -1,15 +1,11 @@
-the string is: my name is tsedex
-the number of vowels is: 5
-the number of constants is: 12
+
+the string is: trail one
+the number of vowels is: 4
+the number of constants is: 4
 -----------------------------
 -----------------------------
-the string is: second try for append
-the number of vowels is: 5
-the number of constants is: 16
------------------------------
------------------------------
-the string is: my name is abel
-the number of vowels is: 5
-the number of constants is: 10
+the string is: trail two!
+the number of vowels is: 3
+the number of constants is: 5
 -----------------------------
 -----------------------------
