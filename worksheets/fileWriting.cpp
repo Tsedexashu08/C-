@@ -4,15 +4,15 @@
 using namespace std;
 void accept(char str[],int n){
    cout<<"enter a word or line:  ";
-   cin.getline(str,n,'.');//accepts string till fullstop is encountered.
-}//acccepts string.
+   cin.getline(str,n,'.');//accepts string till full stop is encountered.
+}//accepts string.
 void write(char str[],ofstream &out){
     if(out.is_open()){
       out<<str;
     out.close();
     }
     else{
-      cout<<"error!file doesn't exist";
+      cout<<"error!file does not exist";
     }
  }//writes the string into a file.
 void count(int &v_count,int &c_count,ofstream &out){
@@ -37,6 +37,8 @@ for(int i = 0; x[i]!='\0'; ++i)
         result<<"the string is: "<<x<<endl;
         result<<"the number of vowels is: "<<vcount<<endl;
         result<<"the number of constants is: "<<ccount<<endl;
+        result<<"-----------------------------"<<endl;
+        result<<"-----------------------------"<<endl;
       }else{
         cout<<"error opening file!";
       }
